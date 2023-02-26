@@ -5,6 +5,19 @@
   position: absolute;
   height: 100%;
   width: 100%;
+  filter: blur(10px);
+
+}
+.image_front
+{
+  background-size: contain;
+  background-position: 50%;
+  position: absolute;
+  height: 100%;
+  width: 80%;
+  margin-left: 10%;
+  background-repeat: no-repeat;
+
 }
 .container
 {
@@ -17,7 +30,7 @@
   float: left;
   color: White;
   font-family: "Helvetica";
-  font-size: 2vw;
+  font-size: 1vw;
   text-align: center;
   margin-top: 15px;
   margin-bottom: 15px;

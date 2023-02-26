@@ -17,6 +17,7 @@ function Image(props)
   return (
     <div className='container' style={container_style}>
       <div className="image" style={bg_style}/>
+      <div className="image_front" style={bg_style}/>
     </div>);
 }
 
