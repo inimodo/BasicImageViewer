@@ -1,0 +1,24 @@
+.image
+{
+  background-position: 50%;
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.container
+{
+  position: relative;
+  width: 100%;
+}
+.legal
+{
+  width: 100%;
+  float: left;
+  color: White;
+  font-family: "Helvetica";
+  font-size: 2vw;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
