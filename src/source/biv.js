@@ -53,10 +53,17 @@ function Biv(props){
   var scroll = scrollY*h_scale/height;
   var rel_scroll = scroll-index;
 
+  var cen_scroll = rel_scroll;
 
+  if(rel_scroll<0.5)
+  {
+    cen_scroll = 1.0-rel_scroll;
+  }
+  cen_scroll = (cen_scroll-0.5)*2;
 
   var pagedata = {
     "rel_scroll":rel_scroll,
+       "cen_scroll":cen_scroll,
     "height":height,
     "index":index
 
